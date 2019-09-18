@@ -113,6 +113,9 @@
         <property key="disable-optimizations" value="false"/>
         <property key="extra-include-directories"
                   value="../demo_src;../../../../../../framework/usb/inc;../../../../../../bsp/picdem_fs_usb_k50;."/>
+        <property key="favor-optimization-for" value="+speed,-space"/>
+        <property key="garbage-collect-data" value="true"/>
+        <property key="garbage-collect-functions" value="true"/>
         <property key="identifier-length" value="255"/>
         <property key="local-generation" value="false"/>
         <property key="operation-mode" value="pro"/>
@@ -124,6 +127,8 @@
         <property key="optimization-invariant-value" value="16"/>
         <property key="optimization-level" value="-O3"/>
         <property key="optimization-speed" value="true"/>
+        <property key="optimization-stable-enable" value="false"/>
+        <property key="pack-struct" value="true"/>
         <property key="preprocess-assembler" value="true"/>
         <property key="short-enums" value="true"/>
         <property key="undefine-macros" value=""/>
@@ -207,6 +212,8 @@
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges" value=""/>
         <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value="0-ff"/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
         <property key="programoptions.preserveprogramrange" value="false"/>
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.programcalmem" value="false"/>
